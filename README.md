@@ -86,6 +86,10 @@ size: 58mm 40mm; /* Размер этикетки */
 ```html
 <img alt="Штрих-код" class="barcode" src="https://barcode.tec-it.com/barcode.ashx?data={$product.article}&amp;code=Code128&amp;dpi=96" />
 ```
+Пример для генерации QR-кода вместо линейного штрих кода:
+```html
+<img alt="QR-код" class="barcode" src="https://barcode.tec-it.com/barcode.ashx?data={$product.article}&amp;code=QRCode&amp;dpi=96" />
+```
 ## Лицензия
 
 Этот проект распространяется под лицензией MIT. Подробности см. в файле [LICENSE](LICENSE).
