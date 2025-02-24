@@ -12,8 +12,10 @@
 2. Создайте новый документ в MegaCRM.
 3. Вставьте скопированный код в шаблон документа в режиме HTML.
 4. Настройте размеры термоэтикетки, изменив параметры `width` и `height` в CSS.
+   
+![MegaCRM Печать термоэтикеток в формате Xprint](https://github.com/NodeRedBPM/MegaCRM-Xprint/blob/main/megacrmxprint.png)
 
-HTML-код для вставки в MegaCRM:
+HTML-код для создания нового документа в MegaCRM:
 ```html
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
