@@ -18,7 +18,7 @@
    
 ![MegaCRM Печать термоэтикеток в формате Xprint](https://github.com/NodeRedBPM/MegaCRM-Xprint/blob/main/megacrmxprint.png)
 
-HTML-код для создания нового документа в MegaCRM:
+HTML-код для создания шаблона нового документа в MegaCRM:
 ```html
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
