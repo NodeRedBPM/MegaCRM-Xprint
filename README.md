@@ -14,6 +14,7 @@
 4. Настройте размеры термоэтикетки, изменив параметры `width` и `height` в CSS.
 
 HTML-код для вставки в MegaCRM:
+```markdown
 ```html
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -63,14 +64,14 @@ HTML-код для вставки в MegaCRM:
             <!-- Разрыв страницы -->
         {/for}
     {/foreach}
-```html
+```markdown
 ## Редактирование размера термоэтикетки
 
 Для изменения размера термоэтикетки отредактируйте следующие параметры в CSS:
 ```html
     width: 58mm;
     height: 40mm;
-```html
+```markdown
 ## Лицензия
 
 Этот проект распространяется под лицензией MIT. Подробности см. в файле [LICENSE](LICENSE).
